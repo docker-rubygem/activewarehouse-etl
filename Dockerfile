@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.9.5.rc1
+ENV VERSION=1.0.0
 
 RUN gem install activewarehouse-etl --version ${VERSION} --no-format-exec
 
